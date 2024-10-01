@@ -1,0 +1,17 @@
+name: data_science_env
+channels:
+  - conda-forge
+  - defaults
+dependencies:
+  - python=3.10
+  - ta-lib
+  - numpy
+  - pandas
+  - requests
+  - xgboost
+  - scikit-learn
+  - matplotlib
+  - seaborn
+  - jupyterlab
+  - pip:
+      - yfinance
