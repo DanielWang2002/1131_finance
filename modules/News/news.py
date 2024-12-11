@@ -72,7 +72,7 @@ class GNews:
 
 # 測試範例
 if __name__ == "__main__":
-    api_key = ""
+    api_key = "819599a52833bb05cb624f44a64ac86e"
     gnews = GNews(api_key)
 
     # 查詢關鍵字 "example"，語言為英文

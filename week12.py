@@ -14,7 +14,7 @@ def mix_output(fd_output, news_output):
 if __name__ == "__main__":
 
     ### FundamentalData ###
-    fd_api = ""
+    fd_api = "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJkYXRlIjoiMjAyNC0xMS0yOSAxNDoyNTozMiIsInVzZXJfaWQiOiJEYW5pZWxXYW5nMjAwMiIsImlwIjoiMjIzLjEzOS4yMzguMTE5In0.rhU-lrfMfxCwvn15nIuf6dhe56iS8o1KKur-FcHxiUs"
 
     fd = FundamentalData(api_token=fd_api)
 
@@ -31,7 +31,7 @@ if __name__ == "__main__":
     ### FundamentalData ###
 
     ### GNews ###
-    gnews_api = ""
+    gnews_api = "819599a52833bb05cb624f44a64ac86e"
 
     gnews = GNews(api_key=gnews_api)
 
@@ -47,7 +47,7 @@ if __name__ == "__main__":
     today = datetime.datetime.now().strftime("%Y-%m-%d")
     head = f"請透過以下資訊對台積電 (2330) 進行分析，並在最後提供投資建議、理由，以及1~100的投資信心值。今天是{today}。請使用繁體中文進行回覆。不需要給我投資風險的相關警告或是免責聲明。"
 
-    llm_api = ""
+    llm_api = "AIzaSyDnx0ZF42PItw_lmMNfs1fdIVoprGTDx1g"
     llm = GeminiAPI(llm_api)
 
     prompt = head + stock_info

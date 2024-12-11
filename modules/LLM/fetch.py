@@ -34,7 +34,7 @@ class GeminiAPI:
 # 測試範例
 if __name__ == "__main__":
     # 替換為您的 API 金鑰
-    api_key = ""
+    api_key = "AIzaSyDnx0ZF42PItw_lmMNfs1fdIVoprGTDx1g"
     gemini_api = GeminiAPI(api_key)
 
     # 使用提示語生成內容
